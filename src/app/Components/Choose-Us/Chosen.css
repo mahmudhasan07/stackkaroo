@@ -1,0 +1,106 @@
+#chosen {
+    margin: 30px 0px;
+}
+
+#chosen1 {
+    background-color: black;
+}
+
+#chosen1>img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    opacity: 0.70;
+}
+
+#chosen1>div {
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+
+#chosen1>div>h1 {
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.125px;
+}
+
+#chosen2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+
+#chosen2_part1>h1 {
+    color: #0A56F1;
+    text-transform: uppercase;
+    font-family: "Bebas Neue";
+    font-size: 50px;
+    /* font-style: normal; */
+    font-weight: 800;
+    /* line-height: 135px; */
+}
+
+#chosen2_part1>p {
+    display: flex;
+    font-size: 20px;
+    margin: 5px 0px;
+}
+
+#chosen2_part1>p>.chosen_icon {
+    margin: auto 5px;
+    color: green;
+}
+
+#chosen2_part2>img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 10px;
+    margin-top: -70px;
+    position: relative;
+    border: 8px solid white;
+}
+
+#chosen3 {
+    width: 80%;
+    margin: 0px auto;
+}
+
+#chosen3>h1 {
+    color: #F78319;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#chosen3 > p {
+    text-align: center;
+    margin: 10px 0px;
+    font-size: large;
+    font-weight: 500;
+}
+
+
+#chosen4 >h1{
+    background: #0A56F1;
+    box-shadow: 0px 4px 15px 5px rgba(247, 131, 25, 0.50);
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 5px 50px;
+    color: #FFF;
+    font-family: "Roboto Condensed";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

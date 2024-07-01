@@ -1,0 +1,109 @@
+#trust_head1 {
+    text-align: center;
+    color: #0A56F1;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.trust_text {
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.375px;
+    margin: 15px 50px;
+}
+
+#trust2 {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+
+#trust2_content {
+    width: 400px;
+    height: 400px;
+    border: 0px solid white;
+    filter: drop-shadow(50px 50px 0px white);
+
+    clip-path: polygon(25% 6.69873%, 75% 6.69873%, 100% 50%, 75% 93.3013%, 25% 93.3013%, 0% 50%);
+}
+
+#trust_img {
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid white; */
+    object-fit: cover;
+
+    /* border: 500px 500px 100px 100px; */
+
+    /* 0% 50%, 25% 6.69873%, 25% 93.3013%, 75% 93.3013%, 100% 50%, 75% 6.69873% */
+
+    /* transform: ; */
+}
+
+#trust2_content2 {
+    margin: auto 0;
+    /* word-spacing: ; */
+}
+
+.trust_icon {
+    font-size: 30px;
+    color: green;
+}
+
+
+
+.trust2_contentDetails {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.trust2_contentDetails>div>h1 {
+    color: #0A56F1;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.45px;
+}
+
+.trust2_contentDetails>div>p {
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* letter-spacing: 0.375px; */
+}
+
+#trust3 {
+    text-align: center;
+}
+
+#trust3>h1 {
+    background: #F78319;
+    box-shadow: 0px 4px 15px 5px rgba(247, 131, 25, 0.50);
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 5px 50px;
+    color: #FFF;
+    font-family: "Roboto Condensed";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* text-align: center; */
+}
