@@ -2,7 +2,7 @@ import React from 'react';
 import "./Service.css"
 const Service = () => {
     return (
-        <section id='service' className='relative'>
+        <section id='service' className='relative my-15'>
             <h1>OUR SERVICES</h1>
             <div id='service1' >
                 <div className='service_part1'>
