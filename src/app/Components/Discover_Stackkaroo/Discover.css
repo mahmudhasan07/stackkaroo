@@ -55,16 +55,9 @@
 }
 
 #discover1_part1{
-    display: flex;
-    justify-content: space-around;   
-    gap: 50px;
+    display: flex;   
+    justify-content: space-around;
     margin: 0px 20px;
-    font-family: "Poppins";
-    
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.5px;
     
    }
 
@@ -72,20 +65,27 @@
 .discover1_part11text, .discover1_part12text {
     display: flex;
     gap: 10px;
-    font-size: 25px;
-    /* font-family: "Poppins"; */
+}
 
-    /* font-weight: 500; */
-    /* gap: 10px; */
+.discover1_part11text >p {
+     font-family: "Poppins";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
 }
 
 .discover1_icon{
     color: green;
-    font-size: 35px;
-    font-size: 25px;
-    
 }
 
 #discover1_part11, #discover1_part12{
     width: 40%;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
 }
