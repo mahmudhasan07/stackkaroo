@@ -91,16 +91,13 @@
 
 #chosen4 >h1{
     background: #0A56F1;
-    box-shadow: 0px 4px 15px 5px rgba(247, 131, 25, 0.50);
+    box-shadow: 0px 4px 15px 5px rgba(10, 86, 241, 0.35);
     width: fit-content;
     margin: 20px auto;
     border-radius: 20px;
-    font-size: 30px;
+    font-size: 35px;
     padding: 5px 50px;
     color: #FFF;
     font-family: "Roboto Condensed";
-    font-size: 35px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }

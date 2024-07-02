@@ -1,0 +1,68 @@
+#service>h1 {
+    color: #F78319;
+    position: relative;
+    font-family: "Bebas Neue";
+    font-size: 50px;
+    font-weight: 800;
+    left: 20%;
+    width: fit-content;
+}
+
+#service1, #service3, #service5 {
+    width: 70%;
+    /* margin-left: auto; */
+
+}
+
+#service2,#service4,#service6{
+    width: 70%;
+    margin-left: auto;
+}
+
+.service_part1 {
+    display: flex;
+    background-color: #D9D9D9;
+    gap: 20px;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+.service_part1>img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.service_part1>div {
+    margin: auto 0px;
+}
+
+.service_part1>div>h1 {
+    color: #0A56F1;
+    font-family: "Poppins";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.service_part1>div>p {
+    font-family: "Poppins";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+}
+.service_part2{
+    margin-top: -45px;
+}
+.service_part2>h1 {
+    background: #0A56F1;
+    box-shadow: 0px 4px 15px 5px rgba(10, 86, 241, 0.35);
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 5px 50px;
+    color: #FFF;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+}

@@ -34,7 +34,7 @@ const Chosen = () => {
             </div>
             <div id='chosen4'>
                 <h1>Start Your Development Journey With Us..!</h1>
-                <p className='my-5 text-center font-semibold text-xl tracking-widest'>“Book your consultation now and join the success story of hundreds of our satisfied clients”</p>
+                <p className='my-8 text-center font-semibold text-xl tracking-widest'>“Book your consultation now and join the success story of hundreds of our satisfied clients”</p>
 
             </div>
         </section>
