@@ -44,7 +44,7 @@ const Trust = () => {
                 </div>
             </div>
                 <div id='trust3'>
-                    <h1 className='bg-[]'>Ready to Boost Your Business Online?</h1>
+                    <h1 className=''>Ready to Boost Your Business Online?</h1>
                     <p className='my-5 text-center font-semibold text-xl tracking-widest'>“Claim your strategy session now and learn how we can help you grow”</p>
                 </div>
             

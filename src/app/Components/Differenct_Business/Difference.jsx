@@ -17,7 +17,7 @@ const Difference = () => {
             </div>
             <div id='difference2' >
                 <h1>See How We Can Help..!</h1>
-                <p className='my-8 text-center font-semibold text-xl tracking-widest'>“Sign up now and discover how we can take your Digital Presence to the next level”</p>
+                <p className='my-8 text-center font-semibold lg:text-xl md:text-xl text-lg tracking-widest'>“Sign up now and discover how we can take your Digital Presence to the next level”</p>
             </div>
         </section>
     );

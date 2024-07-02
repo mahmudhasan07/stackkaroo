@@ -31,7 +31,7 @@ const Discover = () => {
             </div>
             <div id='discover2'>
                 <h1>Get Started With Our Development Assessment</h1>
-                <p className='my-8 text-center font-semibold text-xl tracking-widest'>“Let our team analyze your current site and suggest improvements”</p>
+                <p className='my-8 text-center font-semibold lg:text-xl md:text-xl text-lg tracking-widest'>“Let our team analyze your current site and suggest improvements”</p>
             </div>
         </section>
     );

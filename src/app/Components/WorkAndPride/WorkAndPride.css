@@ -26,6 +26,7 @@
 #work_review {
     display: flex;
     justify-content: space-around;
+    gap: 10px;
     flex-wrap: wrap;
     margin: 20px 0px;
 }
@@ -139,3 +140,38 @@
 }
 
 #p3 {}
+
+
+@media only screen and (max-width: 835px) {
+    #review2 {
+        margin-top: 2px;
+    }
+    /* #review3{
+        margin-top: 5px;
+    } */
+}
+@media only screen and (max-width: 450px) {
+    #work>h1{
+        font-size: 35px;
+    }
+    #work>p{
+        font-size: 20px;
+    }
+    #review2 {
+        margin-top: 0px;
+    }
+    #h1{
+        font-size: 20px;
+    }
+    #h2{
+        font-size: 30px;
+    }
+    #p2 {
+        width: 90%;
+        font-size: 20px;
+    }
+    #h4{
+        font-size: 20px;
+    }
+    
+}

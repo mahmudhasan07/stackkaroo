@@ -66,3 +66,47 @@
     font-family: "Roboto Condensed";
     font-weight: 700;
 }
+
+
+@media only screen and (max-width: 835px) {
+    #service1, #service3, #service5 {
+        width: 90%;
+        /* margin-left: auto; */
+    
+    }
+    
+    #service2,#service4,#service6{
+        width: 90%;
+        margin-left: auto;
+    }
+}
+@media only screen and (max-width: 450px) {
+    #service>h1{
+        font-size: 35px;
+    }
+    #service1, #service3, #service5 {
+        width: 100%;
+        /* margin-left: auto; */
+    
+    }
+    
+    #service2,#service4,#service6{
+        width: 100%;
+        margin-left: auto;
+    }
+    .service_part1{
+        flex-wrap: wrap;
+    }
+    .reverse{
+        flex-direction: column-reverse;
+    }
+    .service_part1>div>h1{
+        font-size: 25px;
+    }
+    .service_part1>div>p{
+        font-size: 20px;
+    }
+    .service_part2>h1{
+        font-size: 20px;
+    }
+}

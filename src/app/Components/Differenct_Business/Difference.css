@@ -81,3 +81,40 @@
 #difference2{
     margin: 50px 0px;
 }
+
+
+@media only screen and (max-width: 835px) {
+    #difference_part1>h1{
+        font-size: 45px
+    }
+    #difference_part1>p{
+        font-size: 20px;
+    }
+    #difference_part2 > h1{
+font-size: 35px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    #difference_part1{
+        width: 100%;
+    }
+    #difference1{
+        flex-wrap: wrap;
+    }
+    #difference_part1>h1{
+        font-size: 32px;
+    }
+    #difference_part1>p{
+        font-size: 18px;
+    }
+    #difference_part2{
+        width: 100%;
+        margin: 15px 0px;
+    }
+    #difference_part2 > h1{
+        font-size: 30px;
+    }
+    #difference2>h1{
+        font-size: 25px;
+    }
+}

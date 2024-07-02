@@ -101,3 +101,41 @@
     font-family: "Roboto Condensed";
     font-weight: 700;
 }
+
+@media only screen and (max-width: 835px) {
+    #chosen1>div{
+        width: 60%;
+    }
+    #chosen1>div>h1{
+        font-size: 60px;
+        
+    }
+}
+@media only screen and (max-width: 450px) {
+    #chosen1>div{
+        width: 70%;
+    }
+    #chosen1>div>h1{
+        font-size: 40px;
+    }
+    #chosen2{
+        flex-wrap: wrap;
+    }
+    #chosen2_part2>img {
+        width: 100%;
+        margin: 0;
+    }
+    #chosen3{
+        width: 95%;
+    }
+    #chosen3 > h1{
+        font-size: 35px;
+    }
+
+    #chosen2_part1>h1{
+        font-size: 40px;
+    }
+    #chosen4 >h1{
+        font-size: 18px;
+    }
+}

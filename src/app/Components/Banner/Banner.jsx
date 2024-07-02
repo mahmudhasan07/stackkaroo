@@ -16,7 +16,7 @@ const Banner = () => {
             <div id='banner_content2' className='relative'>
                 <h1 id='head3'>Unlock Your Business’s Full Potential Now..!</h1>
             </div>
-                <p id='banner_text' className='mt-14 mb-8 text-center font-semibold text-xl tracking-widest'>“Book a consultation with our experts and start transforming your Digital Presence”</p>
+                <p id='banner_text' className='mt-14 mb-8 text-center font-semibold lg:text-xl md:text-xl text-lg tracking-widest'>“Book a consultation with our experts and start transforming your Digital Presence”</p>
         </section>
     );
 };

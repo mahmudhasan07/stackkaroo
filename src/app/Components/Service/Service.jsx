@@ -18,7 +18,7 @@ const Service = () => {
                 </div>
             </div>
             <div id='service2' >
-                <div className='service_part1'>
+                <div className='service_part1 reverse'>
                     <div>
                         <h1>Software Development</h1>
                         <p>Our team of experts excels in developing robust and scalable software solutions that streamline your business operations.</p>
@@ -31,7 +31,7 @@ const Service = () => {
                 </div>
             </div>
             <div id='service3' >
-                <div className='service_part1'>
+                <div className='service_part1 '>
                     <img src="https://i.ibb.co/4Pg1MZF/eef060de368463c04635ee7c56005e77-jpeg.jpg" alt="" />
                     <div>
                         <h1>App Development</h1>
@@ -44,7 +44,7 @@ const Service = () => {
                 </div>
             </div>
             <div id='service4' >
-                <div className='service_part1'>
+                <div className='service_part1 reverse'>
                     <div>
                         <h1>Digital Marketing</h1>
                         <p>Boost your online presence and reach your target audience with our comprehensive digital marketing strategies, tailored to meet your
@@ -71,7 +71,7 @@ const Service = () => {
                 </div>
             </div>
             <div id='service6' >
-                <div className='service_part1'>
+                <div className='service_part1 reverse'>
                     <div>
                         <h1>SEO Optimization</h1>
                         <p>Improve your website's visibility and rankings on search engines with our effective SEO techniques, driving organic traffic and increasing conversions.</p>

@@ -57,3 +57,27 @@
 /* #banner_text{
     letter-spacing: 1px;
 } */
+
+
+@media only screen and (max-width: 835px){
+    #banner_content{
+        top: 30%;
+        left: 35%;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    #banner_img{
+        height: 500px;
+    }
+    #banner_content{
+        top: 20%;
+        left: 20%;
+    }
+    #head3{
+        font-size: 20px;
+    }
+    #banner_content2{
+        margin: -20px auto;
+    }
+}

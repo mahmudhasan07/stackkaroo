@@ -25,6 +25,7 @@
 #trust2 {
     display: flex;
     justify-content: space-around;
+    
     /* border: 2px solid black; */
 }
 
@@ -104,4 +105,21 @@
     font-size: 35px;
     font-weight: 700;
     /* text-align: center; */
+}
+
+
+@media only screen and (max-width: 450px){
+    #trust_head1{
+        font-size: 30px;
+    }
+    .trust_text{
+        font-size: 20px;
+        margin: 15px 30px;
+    }
+    #trust2{
+        flex-wrap: wrap;
+    }
+    #trust3>h1{
+        font-size: 20px;
+    }
 }
